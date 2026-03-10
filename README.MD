@@ -6,11 +6,13 @@ No caso além de um pipeline de data-driven e valido reforçar a utilização do
 
 ## Arquitetura
 
+```mermaid
 graph LR
     A[API] --> B(ETL)
     B --> C(Data Lake)
     C --> D(Data Warehouse)
     D --> E[Dashboard]
+```
 
 ## Stack
 
