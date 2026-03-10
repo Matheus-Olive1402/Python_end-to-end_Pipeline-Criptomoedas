@@ -6,19 +6,16 @@ No caso além de um pipeline de data-driven e valido reforçar a utilização do
 
 ## Arquitetura
 
-```mermaid
 graph LR
-A[API] --> B(Round Rect)'
-B[ETL] --> C(Round Rect)
-C[Data Lake] --> D(Round Rect)
-D[Warehouse] --> E(Round Rect)
-E[Dashboard]
-```
+    A[API] --> B(ETL)
+    B --> C(Data Lake)
+    C --> D(Data Warehouse)
+    D --> E[Dashboard]
 
 ## Stack
 
-Python
-Pandas
-Docker
-PostgreSQL
-Power BI (a pensar)
+-Python
+-Pandas
+-Docker
+-PostgreSQL
+-Power BI (a pensar)
