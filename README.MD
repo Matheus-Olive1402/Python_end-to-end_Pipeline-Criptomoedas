@@ -16,8 +16,17 @@ D --> E[Dashboard]
 
 ## Stack
 
--Python
--Pandas
--Docker
--PostgreSQL
--Power BI (a pensar)
+<h4> Python
+<h4> Pandas
+<h4> Docker
+<h4> PostgreSQL
+<h4> Power BI (a pensar)
+
+
+## lib
+Pandas == 3.0.1<br>
+pip-tools == 7.5.3
+
+## linux
+Criação de ambiente<br>
+sudo apt update, sudo apt install python3-venv, python3 -m venv .venv, source .venv/bin/activate
